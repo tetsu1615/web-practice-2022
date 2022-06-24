@@ -6,14 +6,9 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   position: relative;
   color: #3c3c3c;
-  font-size: 1.8rem;
   font-family: "M PLUS 1p", sans-serif;
   overflow-x: hidden;
 }
@@ -47,3 +42,103 @@ a {
 }
 
 /*---- PLEASE WRITE CSS BELOW ----*/
+
+.MainDescription {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 1000px;
+}
+
+.MainDescription .subtitle {
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+
+.MainDescription .title {
+  margin-bottom: 1rem;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.MainDescription img {
+  width: 320px;
+}
+
+.MainDescription .desc {
+  letter-spacing: 0.025em;
+  line-height: 2;
+}
+
+.ActivityContents,
+.TypicalProjects {
+  margin: 0 auto 5rem;
+  max-width: 1000px;
+}
+
+.sec-title {
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sec-title span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.container .box {
+  padding-bottom: 2rem;
+  max-width: 320px;
+}
+
+.container .box img {
+  display: block;
+  margin: 0 auto 2rem;
+  width: 250px;
+  height: 250px;
+}
+
+.container .item {
+  display: flex;
+}
+
+.container .item .num {
+  margin-right: 1rem;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.container .item .item-title {
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+}
+
+.container .item .item-desc {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.TypicalProjects .item {
+  display: block;
+}
+
+.TypicalProjects .item .item-title {
+  font-size: 18px;
+}
+
+footer img {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 160px;
+}
